@@ -1,5 +1,6 @@
 package com.stockmonitoringapp.dto;
 
+
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
@@ -20,4 +21,5 @@ public class RegisterRequest {
 	@Pattern(regexp="^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%.*?&]{7,20}$",
 	message="Password should contain UpperCase and LowerCase letters,a number and special characters")
 	    private String password;
+	    private String role;
 	}
