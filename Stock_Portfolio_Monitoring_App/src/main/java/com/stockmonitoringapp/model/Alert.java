@@ -13,10 +13,10 @@ public class Alert {
 	 public double thresholdValue;
 	 
 	 //getter
-	    public Long getId() {
+	    public Long getid() {
 	        return id;
 	    }
-	    public String getSymbol() {
+	    public String getsymbol() {
 	        return symbol;
 	    }
 	    public String getAlertType() {
